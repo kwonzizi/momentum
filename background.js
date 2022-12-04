@@ -3,7 +3,7 @@ const images = ["spring.jpg","summer.jpg","fall.jpg","winter.jpg"];
 const chosenImage = images[Math.floor(Math.random()*images.length)];
 
 const bgImg = document.createElement("img");
-bgImg.src = `momentum/${chosenImage}`;
+bgImg.src = `${chosenImage}`;
 
 document.body.appendChild(bgImg);
 
