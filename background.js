@@ -1,9 +1,9 @@
-const images = ["spring.jpg","summer.jpg","fall.jpg","winter.jpg"];
+const images = ["spring.JPG","summer.JPG","fall.JPG","winter.JPG"];
 
 const chosenImage = images[Math.floor(Math.random()*images.length)];
 
 const bgImg = document.createElement("img");
-bgImg.src = `./${chosenImage}`;
+bgImg.src = `../${chosenImage}`;
 
 document.body.appendChild(bgImg);
 
